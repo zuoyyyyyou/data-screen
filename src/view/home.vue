@@ -17,9 +17,9 @@
           <Line class="line"></Line>
         </div>
         <div class="right">
-          <!-- <Rank class="rank"></Rank> -->
-          <!-- <Year class="year"></Year> -->
-          <!-- <Counter class="count"></Counter> -->
+          <Rank class="rank"></Rank>
+          <Year class="year"></Year>
+          <Counter class="count"></Counter>
         </div>
       </div>
     </div>
@@ -39,9 +39,9 @@ import Map from '@/components/Map.vue'
 import Line from '@/components/Line.vue'
 
 //引入右侧三个子组件
-// import Rank from '@/components/Rank.vue'
-// import Year from '@/components/Year.vue'
-// import Counter from '@/components/Counter.vue'
+import Rank from '@/components/Rank.vue'
+import Year from '@/components/Year.vue'
+import Counter from '@/components/Counter.vue'
 let screen = ref()
 onMounted(() => {
   screen.value.style.transform = `scale(${getScale()}) translate(-50%,-50%)`
