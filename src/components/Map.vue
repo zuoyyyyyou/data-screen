@@ -5,12 +5,13 @@
 
 import { ref, onMounted } from 'vue'
 import * as echarts from 'echarts'
+import chinaJSON from '@/resource/china.json'
 let map = ref()
 onMounted(async () => {
   let mychart = echarts.init(map.value)
-  await fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json').then(response => response.json()).then((res) => {
+  // await fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json').then(response => response.json()).then((res) => {
     //注册中国地图
-    echarts.registerMap('china', res)
+    echarts.registerMap('china', chinaJSON)
     //设置配置项
     mychart.setOption({
       //地图组件
@@ -106,7 +107,7 @@ onMounted(async () => {
         },
       ],
     })
-  })
+  // })
 })
 </script>
 <style scoped lang="scss"></style>
