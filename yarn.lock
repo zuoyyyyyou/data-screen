@@ -1669,6 +1669,11 @@
   optionalDependencies:
     "prettier" "^1.18.2 || ^2.0.0"
 
+"@vue/devtools-api@^6.5.0":
+  "integrity" "sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA=="
+  "resolved" "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.5.1.tgz"
+  "version" "6.5.1"
+
 "@vue/reactivity-transform@3.3.9":
   "integrity" "sha512-HnUFm7Ry6dFa4Lp63DAxTixUp8opMtQr6RxQCpDI1vlh12rkGIeYqMvJtK+IKyEfEOa2I9oCkD1mmsPdaGpdVg=="
   "resolved" "https://registry.npmmirror.com/@vue/reactivity-transform/-/reactivity-transform-3.3.9.tgz"
@@ -2311,7 +2316,7 @@
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
 
-"chokidar@^3.5.3":
+"chokidar@^3.5.3", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw=="
   "resolved" "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz"
   "version" "3.5.3"
@@ -2897,6 +2902,19 @@
   "integrity" "sha512-wK2sCs4feiiJeFXn3zvY0p41mdU5VUgbgs1rNsc/y5ngFUijdWd+iIN8eoyuZHKB8xN6BL4PdWmzqFmxNg6V2w=="
   "resolved" "https://registry.npmmirror.com/easy-stack/-/easy-stack-1.0.1.tgz"
   "version" "1.0.1"
+
+"echarts-liquidfill@^3.1.0":
+  "integrity" "sha512-5Dlqs/jTsdTUAsd+K5LPLLTgrbbNORUSBQyk8PSy1Mg2zgHDWm83FmvA4s0ooNepCJojFYRITTQ4GU1UUSKYLw=="
+  "resolved" "https://registry.npmmirror.com/echarts-liquidfill/-/echarts-liquidfill-3.1.0.tgz"
+  "version" "3.1.0"
+
+"echarts@^5.0.1", "echarts@^5.4.3":
+  "integrity" "sha512-mYKxLxhzy6zyTi/FaEbJMOZU1ULGEQHaeIeuMR5L+JnJTpz+YR03mnnpBhbR4+UYJAgiXgpyTVLffPAjOTLkZA=="
+  "resolved" "https://registry.npmmirror.com/echarts/-/echarts-5.4.3.tgz"
+  "version" "5.4.3"
+  dependencies:
+    "tslib" "2.3.0"
+    "zrender" "5.4.4"
 
 "ee-first@1.1.1":
   "integrity" "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="
@@ -3753,6 +3771,11 @@
   "resolved" "https://registry.npmmirror.com/ignore/-/ignore-5.3.0.tgz"
   "version" "5.3.0"
 
+"immutable@^4.0.0":
+  "integrity" "sha512-fsXeu4J4i6WNWSikpI88v/PcVflZz+6kMhUfIwc5SY+poQRPnaf5V7qds6SUyUN3cVxEzuCab7QIoLOQ+DQ1wA=="
+  "resolved" "https://registry.npmmirror.com/immutable/-/immutable-4.3.4.tgz"
+  "version" "4.3.4"
+
 "import-fresh@^3.0.0", "import-fresh@^3.2.1":
   "integrity" "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw=="
   "resolved" "https://registry.npmmirror.com/import-fresh/-/import-fresh-3.3.0.tgz"
@@ -4337,6 +4360,11 @@
   "integrity" "sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q=="
   "resolved" "https://registry.npmmirror.com/module-alias/-/module-alias-2.2.3.tgz"
   "version" "2.2.3"
+
+"moment@^2.29.4":
+  "integrity" "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
+  "resolved" "https://registry.npmmirror.com/moment/-/moment-2.29.4.tgz"
+  "version" "2.29.4"
 
 "mrmime@^1.0.0":
   "integrity" "sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw=="
@@ -5300,6 +5328,22 @@
   "resolved" "https://registry.npmmirror.com/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
+"sass-loader@^13.3.2":
+  "integrity" "sha512-CQbKl57kdEv+KDLquhC+gE3pXt74LEAzm+tzywcA0/aHZuub8wTErbjAoNI57rPUWRYRNC5WUnNl8eGJNbDdwg=="
+  "resolved" "https://registry.npmmirror.com/sass-loader/-/sass-loader-13.3.2.tgz"
+  "version" "13.3.2"
+  dependencies:
+    "neo-async" "^2.6.2"
+
+"sass@^1.3.0", "sass@^1.69.5":
+  "integrity" "sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ=="
+  "resolved" "https://registry.npmmirror.com/sass/-/sass-1.69.5.tgz"
+  "version" "1.69.5"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
+    "immutable" "^4.0.0"
+    "source-map-js" ">=0.6.2 <2.0.0"
+
 "schema-utils@^2.6.5":
   "integrity" "sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg=="
   "resolved" "https://registry.npmmirror.com/schema-utils/-/schema-utils-2.7.1.tgz"
@@ -5553,7 +5597,7 @@
     "uuid" "^8.3.2"
     "websocket-driver" "^0.7.4"
 
-"source-map-js@^1.0.2":
+"source-map-js@^1.0.2", "source-map-js@>=0.6.2 <2.0.0":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
@@ -5873,6 +5917,11 @@
   "resolved" "https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz"
   "version" "2.6.2"
 
+"tslib@2.3.0":
+  "integrity" "sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg=="
+  "resolved" "https://registry.npmmirror.com/tslib/-/tslib-2.3.0.tgz"
+  "version" "2.3.0"
+
 "type-check@^0.4.0", "type-check@~0.4.0":
   "integrity" "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew=="
   "resolved" "https://registry.npmmirror.com/type-check/-/type-check-0.4.0.tgz"
@@ -6012,7 +6061,7 @@
   "resolved" "https://registry.npmmirror.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
   "version" "2.3.4"
 
-"vue-loader@^17.0.0":
+"vue-loader@^17.0.0", "vue-loader@^17.3.1":
   "integrity" "sha512-nmVu7KU8geOyzsStyyaxID/uBGDMS8BkPXb6Lu2SNkMawriIbb+hYrNtgftHMKxOSkjjjTF5OSSwPo3KP59egg=="
   "resolved" "https://registry.npmmirror.com/vue-loader/-/vue-loader-17.3.1.tgz"
   "version" "17.3.1"
@@ -6020,6 +6069,13 @@
     "chalk" "^4.1.0"
     "hash-sum" "^2.0.0"
     "watchpack" "^2.4.0"
+
+"vue-router@^4.2.5":
+  "integrity" "sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw=="
+  "resolved" "https://registry.npmmirror.com/vue-router/-/vue-router-4.2.5.tgz"
+  "version" "4.2.5"
+  dependencies:
+    "@vue/devtools-api" "^6.5.0"
 
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.3":
   "integrity" "sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg=="
@@ -6034,7 +6090,7 @@
   "resolved" "https://registry.npmmirror.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@*", "vue@^2 || ^3.2.13", "vue@^3.2.13", "vue@3.3.9":
+"vue@*", "vue@^2 || ^3.2.13", "vue@^3.2.0", "vue@^3.2.13", "vue@3.3.9":
   "integrity" "sha512-sy5sLCTR8m6tvUk1/ijri3Yqzgpdsmxgj6n6yl7GXXCXqVbmW2RCXe9atE4cEI6Iv7L89v5f35fZRRr5dChP9w=="
   "resolved" "https://registry.npmmirror.com/vue/-/vue-3.3.9.tgz"
   "version" "3.3.9"
@@ -6316,6 +6372,11 @@
     "y18n" "^5.0.5"
     "yargs-parser" "^20.2.2"
 
+"yarn@^1.22.21":
+  "integrity" "sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg=="
+  "resolved" "https://registry.npmmirror.com/yarn/-/yarn-1.22.21.tgz"
+  "version" "1.22.21"
+
 "yorkie@^2.0.0":
   "integrity" "sha512-jcKpkthap6x63MB4TxwCyuIGkV0oYP/YRyuQU5UO0Yz/E/ZAu+653/uov+phdmO54n6BcvFRyyt0RRrWdN2mpw=="
   "resolved" "https://registry.npmmirror.com/yorkie/-/yorkie-2.0.0.tgz"
@@ -6325,3 +6386,10 @@
     "is-ci" "^1.0.10"
     "normalize-path" "^1.0.0"
     "strip-indent" "^2.0.0"
+
+"zrender@5.4.4":
+  "integrity" "sha512-0VxCNJ7AGOMCWeHVyTrGzUgrK4asT4ml9PEkeGirAkKNYXYzoPJCLvmyfdoOXcjTHPs10OZVMfD1Rwg16AZyYw=="
+  "resolved" "https://registry.npmmirror.com/zrender/-/zrender-5.4.4.tgz"
+  "version" "5.4.4"
+  dependencies:
+    "tslib" "2.3.0"
