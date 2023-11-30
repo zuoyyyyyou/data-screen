@@ -13,8 +13,8 @@
           <Age class="age"></Age>
         </div>
         <div class="center">
-          <!-- <Map class="map"></Map> -->
-          <!-- <Line class="line"></Line> -->
+          <Map class="map"></Map>
+          <Line class="line"></Line>
         </div>
         <div class="right">
           <!-- <Rank class="rank"></Rank> -->
@@ -35,8 +35,8 @@ import Sex from '@/components/Sex.vue'
 import Age from '@/components/Age.vue'
 
 //引入中间两个子组件
-// import Map from '@/components/Map.vue'
-// import Line from '@/components/Line.vue'
+import Map from '@/components/Map.vue'
+import Line from '@/components/Line.vue'
 
 //引入右侧三个子组件
 // import Rank from '@/components/Rank.vue'
