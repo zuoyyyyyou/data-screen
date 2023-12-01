@@ -65,28 +65,28 @@ onMounted(() => {
           color: 'yellowgreen',
         },
         //是否显示背景颜色
-        showBackground: true,
-        backgroundStyle: {
-          //底部背景的颜色
-          color: {
-            type: 'linear',
-            x: 0,
-            y: 0,
-            x2: 0,
-            y2: 1,
-            colorStops: [
-              {
-                offset: 0,
-                color: 'black', // 0% 处的颜色
-              },
-              {
-                offset: 1,
-                color: 'blue', // 100% 处的颜色
-              },
-            ],
-            global: false, // 缺省为 false
-          },
-        },
+        // showBackground: true,
+        // backgroundStyle: {
+        //   //底部背景的颜色
+        //   color: {
+        //     type: 'linear',
+        //     x: 0,
+        //     y: 0,
+        //     x2: 0,
+        //     y2: 1,
+        //     colorStops: [
+        //       {
+        //         offset: 0,
+        //         color: '#1594E8', // 0% 处的颜色
+        //       },
+        //       {
+        //         offset: 1,
+        //         color: '#1594E8', // 100% 处的颜色
+        //       },
+        //     ],
+        //     global: true, // 缺省为 false
+        //   },
+        // },
         //柱条的样式
         itemStyle: {
           borderRadius: [10, 10, 0, 0],
@@ -123,28 +123,28 @@ onMounted(() => {
           color: 'yellowgreen',
         },
         //是否显示背景颜色
-        showBackground: true,
-        backgroundStyle: {
-          //底部背景的颜色
-          color: {
-            type: 'linear',
-            x: 0,
-            y: 0,
-            x2: 0,
-            y2: 1,
-            colorStops: [
-              {
-                offset: 0,
-                color: 'black', // 0% 处的颜色
-              },
-              {
-                offset: 1,
-                color: 'blue', // 100% 处的颜色
-              },
-            ],
-            global: false, // 缺省为 false
-          },
-        },
+        // showBackground: true,
+        // backgroundStyle: {
+        //   //底部背景的颜色
+        //   color: {
+        //     type: 'linear',
+        //     x: 0,
+        //     y: 0,
+        //     x2: 0,
+        //     y2: 1,
+        //     colorStops: [
+        //       {
+        //         offset: 0,
+        //         color: 'black', // 0% 处的颜色
+        //       },
+        //       {
+        //         offset: 1,
+        //         color: 'blue', // 100% 处的颜色
+        //       },
+        //     ],
+        //     global: false, // 缺省为 false
+        //   },
+        // },
         //柱条的样式
         itemStyle: {
           borderRadius: [10, 10, 0, 0],
